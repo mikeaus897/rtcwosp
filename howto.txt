@@ -1,0 +1,25 @@
+OSP Wolf Tourney for Wolfenstein (rtcwosp)
+by Orange Smoothie Productions
+https://www.orangesmoothie.com/wolf/index.html
+
+HOWTO on Debian 11.3 i386:
+* Debian ISO: https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-11.3.0-i386-netinst.iso
+
+Required files:
+* OSP mod library: osp-wolf-0.9.zip
+* RTCW server: Wolf-1.41b windows-linux.zip
+* DEBIAN missing library: libstdc++2.10-glibc2.2_2.95.4-27_i386.deb
+
+HOWTO INSTALL Return To Castle Wolfenstein 1.41b\linux\wolfded.x86:
+to get wolfded.x86 (Wolf 1.41b-MP linux-i386 May 8 2006) working on debian 11.3, library libstdc++2 glibc2.2 is required, otherway will get error with missing library .so
+sudo dpkg -i libstdc++2.10-glibc2.2_2.95.4-27_i386.deb
+
+give libraries and start script executable rights:
+sudo chmod +x wolfded.x86
+sudo chmod +x wolfded141.x86
+sudo chmod +x startosp.sh
+sudo chmod +x osp\qagame.mp.i386.so
+
+update original /main/mp_pak0.pk3 into folder
+
+start server command: ./startosp.sh

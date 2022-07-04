@@ -1,6 +1,9 @@
 # OSP Wolf Tourney for Wolfenstein (rtcwosp)
 
 by Orange Smoothie Productions
+* [https://www.orangesmoothie.com/wolf/index.html](https://www.orangesmoothie.com/wolf/index.html)
+
+https://www.orangesmoothie.com/wolf/index.html
 https://www.orangesmoothie.com/wolf/index.html
 
 # HOWTO on Debian 11.3 i386:

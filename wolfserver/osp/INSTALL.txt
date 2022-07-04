@@ -1,0 +1,50 @@
+OSP for Return to Castle Wolfenstein
+====================================
+Version: 0.9
+Date:    30 Dec 03
+Site:    http://www.OrangeSmoothie.org
+Contact: rhea@OrangeSmoothie.org
+IRC:     irc.enterthegame.com - #osp
+
+
+INSTALLATION NOTES:
+-------------------
+Place the enclosed .zip in your root RtCW/ directory.  You
+should now have a new "osp/" directory just under your main
+RtCW/ directory.
+
+The following files are included with the distribution:
+    osp/INSTALL.txt (this file)
+    osp/README.txt  (main overview doc for OSP)
+
+    osp/stopwatch-comp-server.cfg (Sample StopWatch "Competition" config)
+    osp/stopwatch-pub-server.cfg  (Sample StopWatch "Public Server" config)
+
+    osp/Docs/osp-wolf-ClientReadme.txt   (OSP client info/settings)
+    osp/Docs/osp-wolf-Commands.txt       (OSP client/server commands)
+    osp/Docs/osp-wolf-Democast.txt       ("Democast" usage and creation)
+    osp/Docs/osp-wolf-DemoControls.txt   (Controls available in demoplayback)
+    osp/Docs/osp-wolf-History.txt        (OSP revision history)
+    osp/Docs/osp-wolf-Multiview.txt      (Info on use of the multiview option)
+    osp/Docs/osp-wolf-ServerSettings.txt (OSP server variables info)
+    osp/Docs/osp-wolf-StatsInfo.txt      (Info on various OSP stats reports)
+
+    osp/osp-binXX.pk3   (Client executables - required)
+    osp/osp-pakXX.pk3   (Client content - required)
+
+    osp/qagame_mp_x86.dll  (Win32 server)
+    osp/qagame.mp.i386.so  (Linux server)
+
+
+Further information can be obtained in the README.txt,
+Docs/osp-wolf-*.txt files, and all example configs contained herein.
+
+
+****                               ****
+**** IF RUNNING A DEDICATED SERVER ****
+****                               ****
+   - KEEP all osp-pakXX.pk3 files.
+   - Delete ALL osp-binXX.pk3 files *except* the one found in this release.
+   - Game clients (players) should *not* delete any .pk3 files from the osp/
+     directory (for backwards compatibility).
+

@@ -5,7 +5,7 @@ by Orange Smoothie Productions
 https://www.orangesmoothie.com/wolf/index.html
 
 # HOWTO on Debian 11.3 i386:
-- ISO: https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-11.3.0-i386-netinst.iso
+- Debian ISO: https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-11.3.0-i386-netinst.iso
 
 # Required files:
 - OSP mod library: osp-wolf-0.9.zip
